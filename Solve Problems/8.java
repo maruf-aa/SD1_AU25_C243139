@@ -7,6 +7,11 @@ public class Firstclass {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        if(n < 0)
+        {
+            System.out.println("Invalid Numner");
+            return;
+        }
         long factorial = 1;
         for(int i = 1; i <= n; i++)
         {
